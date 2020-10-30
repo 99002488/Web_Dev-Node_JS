@@ -1,0 +1,17 @@
+$bgcolor:red;
+$color: black;
+$fontsize: 20px !global;
+h2{
+    background-color: $bgcolor;
+    $color:blue;
+    color:$color;
+    font-size: $fontsize;
+}
+p{
+    background-color: antiquewhite;
+    font-size: $fontsize;
+    color:$color;
+}  
+h2{  
+    color:$color;   
+}  

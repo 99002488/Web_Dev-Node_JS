@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li{
+            text-transform: uppercase;
+            color: purple;
+        }
+        ul li:first-child{
+            color: rosybrown;
+        }
+        li:last-child{
+            text-decoration: underline;
+        }
+        ol li{
+            color: red;
+        }
+        ul#cartoon li :last-child{
+            text-decoration: underline;
+        }
+        ol li{
+            color: royalblue;
+        }
+        li#course{
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <ul style="list-style-type: square;">
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+    </ul>
+    <ol style="list-style-type: upper-alpha;">
+        <li id="course">Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+    <ul style="list-style-type: none;"  id="cartoon">
+        <li>app</li>
+        <li>app</li>
+        <li>app</li>
+    </ul>
+</body>
+</html>
