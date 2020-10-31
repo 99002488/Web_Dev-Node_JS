@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script>
+        function validateForm()
+        {
+            if(document.getElementById("uname").value==""){
+                alert("enter your name");
+                document.myform.username.focus();
+            }else if(document.getElementById("pswd").value==""){
+                alert("enter your password");
+                document.myform.password.focus();
+        }else if(document.getElementById("gen1").checked=="" && document.getElementById("gen2").checked==""){
+                alert("enter gender");
+                document.myform.r1.checked=true;
+        }
+        else{
+            alert("You are registered!")
+            document.myform.submit();
+        }
+        }
+    </script>
+</head>
+<body>
+    <form action="continue.html" name="myform">
+        Enter Name
+        <input type="text" name="username" id="uname" placeholder="Enter Name"/> <br>
+        Enter Password
+        <input type="password" name="password" id="pswd" placeholder="Enter Password"/><br>
+        Age
+        <input type="number" name="age" id="age" placeholder="Enter your age"> <br>
+        Gender
+        <input type="radio" id="gen1" name="r1" value="Male">Male
+        <input type="radio" id="gen2" name="r1" value="Female">Female
+        <br>
+        <input type="button" value="Click Here" id="btn" onclick="validateForm()">
+    </form>
+</body>
+</html>

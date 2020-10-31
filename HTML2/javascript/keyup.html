@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     function output(){
+            data=document.getElementById("text").value;
+            document.getElementById("mydiv").innerHTML=data;
+     }   
+    </script>
+</head>
+<body>
+    <textarea id="text" cols="30" rows="10" onkeyup="output()"></textarea>
+    <div id="mydiv" style="background-color: yellow;"></div>
+</body>
+</html>
