@@ -7,14 +7,18 @@ body {
   background-color: #28223f;
   font-family: Montserrat, sans-serif;
   display: flex;
-  align-items: center;
+  /* align-items: center ; */
   justify-content: center;
-  min-height: 100vh;
+  /* min-height: 5vh; */
   margin: 0;
+  background: url(image/s4.jpg) center;
 }
 
 h3 {
   margin: 10px 0;
+}
+#edu{
+  text-align: center;
 }
 
 h6 {
@@ -27,35 +31,14 @@ p {
   line-height: 21px;
 }
 
-.card-container {
-  background-color: #231e39;
-  border-radius: 5px;
-  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-  color: #b3b8cd;
-  padding-top: 20px;
-  position: relative;
-  width: 350px;
-  max-width: 100%;
-  margin-top: 300px;
-  text-align: center;
-}
 
-.card-container .pro {
-  color: #231e39;
-  background-color: #febb0b;
-  border-radius: 3px;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 3px 7px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
+
 
 .card-container .round {
   border: 1px solid #03bfcb;
   border-radius: 50%;
   padding: 7px;
+ 
 }
 
 button.primary {
@@ -67,6 +50,17 @@ button.primary {
   font-weight: 500;
   padding: 10px 25px;
 }
+#contact{
+  background-color:  #231e39;
+  border: 1px solid  #231e39;
+  border-radius: 3px;
+  color: #231e39;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+  text-align: center;
+}
+ 
 
 button.primary.ghost {
   background-color: transparent;
@@ -94,18 +88,35 @@ button.primary.ghost {
   margin: 0 7px 7px 0;
   padding: 7px;
 }
-
+#first {
+  background-color: #231e39;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #b3b8cd;
+  padding-top: 30px;
+  width: 340px;
+  max-width: 100%;
+  margin-top: 475px;
+  text-align:center;
+  margin-right: 365px;
+  position: absolute;
+  align-items: top ;
+  height:320px;
+}
 #second{
     background-color: #231e39;
     border-radius: 5px;
     box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
     color: #b3b8cd;
     padding-top: 2px;
-    position: relative;
+ margin-left: 350px;
+
     width: 350px;
-    margin-top: 300px;
+    margin-top: 475px;
     max-width: 100%;
-    text-align: center;
+    text-align: left;
+    position: absolute;
+    align-items: top ;
 }
 #third{
     background-color: #231e39;
@@ -113,10 +124,25 @@ button.primary.ghost {
     box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
     color: #b3b8cd;
     padding-top: 2px;
-    position: relative;
-    width: 250px;
-    align-content: center;
-    margin-top: 100px;
+    position: absolute;
+    width: 700px;
     max-width: 100%;
     text-align: center;
+    margin-top: 100px;
+    align-items: top ;
+}
+.fa-facebook:hover{
+  color: black;
+}
+.fa-twitter:hover{
+  color: black;
+}
+.fa-linkedin:hover{
+  color: black;
+}
+.fa-github:hover{
+  color: black;
+}
+.fa-instagram:hover{
+  color: black;
 }
